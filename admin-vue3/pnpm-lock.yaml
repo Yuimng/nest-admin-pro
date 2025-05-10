@@ -111,12 +111,6 @@ importers:
       code-inspector-plugin:
         specifier: ^0.16.1
         version: 0.16.3
-      cz-git:
-        specifier: 1.9.2
-        version: 1.9.2
-      czg:
-        specifier: ^1.9.2
-        version: 1.11.1
       eslint:
         specifier: ^8.57.0
         version: 8.57.1
@@ -129,9 +123,6 @@ importers:
       eslint-plugin-vue:
         specifier: ^9.26.0
         version: 9.33.0(eslint@8.57.1)
-      husky:
-        specifier: ^9.0.11
-        version: 9.1.7
       lint-staged:
         specifier: ^15.2.5
         version: 15.5.2
@@ -2233,15 +2224,6 @@ packages:
   csstype@3.1.3:
     resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
 
-  cz-git@1.9.2:
-    resolution: {integrity: sha512-HqwSIZBl/Vtlq56wsHuQHhQ0CF7rABEvhvbSAaGViLeM5YucLu5o+U2XLow1Y2bwIAfAIKZHfgg9fxP7P3XU3Q==}
-    engines: {node: '>=v12.20.0'}
-
-  czg@1.11.1:
-    resolution: {integrity: sha512-2k/Dh7MiRKMUEtQO3kWVkgPmvf0wZlxyS7Svr8cpI2ScATkLuA5uWa2ukJnTXG6Pwe73vFhGO9jd9IiE3NOM5g==}
-    engines: {node: '>=v12.20.0'}
-    hasBin: true
-
   d@1.0.2:
     resolution: {integrity: sha512-MOqHvMWF9/9MX6nza0KgvFH4HpMU0EF5uUDXqX/BtxtU8NfB0QzRtJ8Oe/6SuS4kbhyzVJwjd97EA4PKrzJ8bw==}
     engines: {node: '>=0.12'}
@@ -3028,11 +3010,6 @@ packages:
   human-signals@8.0.1:
     resolution: {integrity: sha512-eKCa6bwnJhvxj14kZk5NCPc6Hb6BdsU9DZcOnmQKSnO1VKrfV0zCvtttPZUsBvjmNDn8rpcJfpwSYnHBjc95MQ==}
     engines: {node: '>=18.18.0'}
-
-  husky@9.1.7:
-    resolution: {integrity: sha512-5gs5ytaNjBrh5Ow3zrvdUUY+0VxIuWVL4i9irt6friV+BqdCfmV11CQTWMiBYWHbXhco+J1kHfTOUkePhCDvMA==}
-    engines: {node: '>=18'}
-    hasBin: true
 
   i18next@20.6.1:
     resolution: {integrity: sha512-yCMYTMEJ9ihCwEQQ3phLo7I/Pwycf8uAx+sRHwwk5U9Aui/IZYgQRyMqXafQOw5QQ7DM1Z+WyEXWIqSuJHhG2A==}
@@ -7548,10 +7525,6 @@ snapshots:
 
   csstype@3.1.3: {}
 
-  cz-git@1.9.2: {}
-
-  czg@1.11.1: {}
-
   d@1.0.2:
     dependencies:
       es5-ext: 0.10.64
@@ -8508,8 +8481,6 @@ snapshots:
   human-signals@5.0.0: {}
 
   human-signals@8.0.1: {}
-
-  husky@9.1.7: {}
 
   i18next@20.6.1:
     dependencies:

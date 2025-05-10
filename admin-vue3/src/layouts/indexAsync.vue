@@ -1,6 +1,6 @@
 <!-- 💥 这里是异步加载 LayoutComponents -->
 <template>
-  <el-watermark id="watermark" :font="font" :content="watermark ? ['SS Admin', 'Happy Working'] : ''">
+  <el-watermark id="watermark" :font="font" :content="watermark ? ['Admin', 'Happy Working'] : ''">
     <suspense>
       <template #default>
         <component :is="LayoutComponents[layout]" />

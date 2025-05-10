@@ -1,6 +1,6 @@
 <template>
   <div class="footer flx-center">
-    <a href="https://github.com/HalseySpicy" target="_blank"> 2025 © SS-Admin </a>
+    <a href="https://github.com/HalseySpicy" target="_blank"> 2025 © Admin </a>
   </div>
 </template>
 

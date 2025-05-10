@@ -1,6 +1,6 @@
 <!-- 💥 这里是一次性加载 LayoutComponents -->
 <template>
-  <el-watermark id="watermark" :font="font" :content="watermark ? ['SS Admin', 'Happy Working'] : ''">
+  <el-watermark id="watermark" :font="font" :content="watermark ? ['Admin', 'Happy Working'] : ''">
     <component :is="LayoutComponents[layout]" />
     <ThemeDrawer />
   </el-watermark>
