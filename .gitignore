@@ -1,0 +1,4 @@
+.DS_Store
+/admin-vue3/dist
+/server/src/config/prod.yml
+**/node_modules
